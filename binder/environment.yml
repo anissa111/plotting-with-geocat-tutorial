@@ -1,0 +1,12 @@
+name: geocat-viz-tutorial
+channels:
+  - conda-forge
+  - ncar
+  - anissa111
+dependencies:
+  - geocat-viz
+  - geocat-datafiles
+  - matplotlib
+  - jupyterlab>=3
+  - xarray
+  - ipywidgets
