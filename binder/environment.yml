@@ -4,7 +4,7 @@ channels:
   - ncar
   - anissa111
 dependencies:
-  - geocat-viz
+  - anissa111::geocat-viz
   - geocat-datafiles
   - matplotlib
   - jupyterlab>=3
