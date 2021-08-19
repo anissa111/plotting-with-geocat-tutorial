@@ -4,13 +4,14 @@ channels:
   - ncar
 dependencies:
   - python=3.8.10
-  - geocat-viz
   - geocat-datafiles
   - matplotlib
   - jupyterlab>=3
   - xarray
   - ipywidgets
   - ffmpeg
+  - cmaps
+  - cartopy
   - pip
   - pip:
     - git+https://github.com/anissa111/geocat-viz@main
