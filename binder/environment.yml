@@ -1,9 +1,10 @@
 name: geocat-viz-tutorial
 channels:
+  - anissa111
   - conda-forge
   - ncar
-  - anissa111
 dependencies:
+  - python=3.8
   - anissa111::geocat-viz
   - geocat-datafiles
   - matplotlib
