@@ -1,6 +1,5 @@
 name: geocat-viz-tutorial
 channels:
-  - anissa111
   - conda-forge
   - ncar
 dependencies:
@@ -12,3 +11,6 @@ dependencies:
   - xarray
   - ipywidgets
   - ffmpeg
+  - pip
+  - pip:
+    - git+https://github.com/anissa111/geocat-viz@main
